@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / compiled files
+*.pyc
+__pycache__/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+venv/
+env/
+
+# Django-specific files
+*.log
+*.pot
+local_settings.py
+db.sqlite3
+/media/ # User-uploaded media files
+/static_collected/ # Collected static files after `collectstatic`
+
+# IDE-specific files
+.idea/ # PyCharm
+.vscode/ # VS Code
+*.sublime-workspace
+*.sublime-project
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+.coverage
+.tox/
+
+# Other temporary or generated files
+*.swp
+*~
+
+# PyCharm specific
+.idea/
+*.iml
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Packaging and distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing and coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask specific
+instance/
+.webassets-cache
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+
+# Celery beat schedule file
+celerybeat-schedule
