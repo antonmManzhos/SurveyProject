@@ -80,15 +80,17 @@ DATABASES = {
     #     'NAME': BASE_DIR / 'db.sqlite3',
     # }
     'default': {
-        'ENGINE': 'mssql',
+        'ENGINE': 'sql_server.pyodbc',
         'NAME': 'MySurveyDB',
         'USER': 'sa',
         'PASSWORD': '123456',
-        'HOST': 'DESKTOP-88OSCIO\SQLEXPRESS',
+        'HOST': 'ANTON\\SQLEXPRESS',
         'PORT': '1433',
-
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
+            #'Trusted_Connection': 'Yes'
+            #'extra_params': 'TrustServerCertificate=yes;',
+            #'extra_params': 'TrustServerCertificate=yes;',
         }
     }
 }
